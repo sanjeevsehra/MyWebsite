@@ -15,6 +15,7 @@ namespace MyWebsite.Pages
         public MusicModel(ILogger<MusicModel> logger)
         {
             _logger = logger;
+
         }
         public IActionResult OnGet()
         {
